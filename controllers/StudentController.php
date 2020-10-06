@@ -29,7 +29,7 @@ class StudentController {
 
   public function create() {
     $title = 'Creación de estudiantes';
-    $action = '/CRUD_SENA/estudiantes/guardar';
+    $action = '/PHP-MVC-CRUD/estudiantes/guardar';
     $content = 'views/student/form.php';
     require_once 'views/layout.php';
   }
@@ -47,7 +47,7 @@ class StudentController {
       return;
     }
 
-    header('location: /CRUD_SENA/estudiantes');
+    header('location: /PHP-MVC-CRUD/estudiantes');
   }
   
   public function edit($id) {
@@ -58,7 +58,7 @@ class StudentController {
       return;
     }
     
-    $action = '/CRUD_SENA/estudiantes/actualizar';
+    $action = '/PHP-MVC-CRUD/estudiantes/actualizar';
     $title = 'Edición de estudiantes';
     $content = 'views/student/form.php';
     require_once 'views/layout.php';
@@ -78,7 +78,7 @@ class StudentController {
       return;
     }
 
-    header('location: /CRUD_SENA/estudiantes');
+    header('location: /PHP-MVC-CRUD/estudiantes');
   }
 
   public function delete() {
@@ -89,6 +89,6 @@ class StudentController {
       return;
     }
 
-    header('location: /CRUD_SENA/estudiantes');
+    header('location: /PHP-MVC-CRUD/estudiantes');
   }
 }

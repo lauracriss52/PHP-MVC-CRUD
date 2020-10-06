@@ -20,7 +20,7 @@
           <a href='estudiantes/editar?id=<?php echo $student->id; ?>'>Editar</a>
         </td>
         <td>
-          <form action="/CRUD_SENA/estudiantes/eliminar" method="post">
+          <form action="/PHP-MVC-CRUD/estudiantes/eliminar" method="post">
             <input type="number" name="id" value="<?php echo $student->id; ?>" hidden>
             <input type="submit" value="Eliminar">
           </form>

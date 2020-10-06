@@ -1,6 +1,6 @@
 <?php
 
-$baseRoute = '/CRUD_SENA';
+$baseRoute = '/PHP-MVC-CRUD';
 $route = str_replace($baseRoute, '', $_SERVER['REQUEST_URI']);
 $params = [];
 
@@ -54,6 +54,6 @@ switch ($route) {
     break;
   
     default:
-      header('location: /CRUD_SENA/');
+      header('location: /PHP-MVC-CRUD/');
       break;
 }
