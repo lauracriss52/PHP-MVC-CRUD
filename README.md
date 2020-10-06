@@ -2,7 +2,7 @@
 
 #### DESCRIPTION:
 
-This is a practice where I explore some techniques to implement a basic MVC framework.
+This is a practice where I explore some techniques to implement an MVC CRUD.
 
 #### INSTALATION:
 
