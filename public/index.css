@@ -18,7 +18,7 @@ h1 {
   text-align: center;
   background-color: #a9cfd0;
   color: #fff;
-  margin: 0 -20px;
+  margin: 0;
   padding: 20px 0;
 }
 
@@ -28,7 +28,7 @@ ul {
 
 a, [type="submit"] {
   background-color: cadetblue;
-  border-radius: 20px;
+  border-radius: 3px;
   padding: 10px 20px;
   color: #fff;
   border: none;
@@ -37,30 +37,39 @@ a, [type="submit"] {
 }
 
 input {
-  border: none;
+  border: 1px solid cadetblue;
+  background-color: #f9f9f9;
   padding: 5px;
   border-radius: 3px;
   outline: none;
 }
 
 input:read-only {
-  background-color: #e4f7f1;
+  background-color: #e6e6e6;
+}
+
+th {
+  border-bottom: 1px solid cadetblue;
+}
+
+th, td {
+  padding: 5px 10px;
 }
 
 .container {
   margin: 0 auto;
-  padding: 20px;
-  background-color: #e4f7f1;
-  width: 700px;
+  background-color: #f9f9f9;
+  width: 900px;
 }
 
 .navbar {
   background-color: cadetblue;
   padding: 20px 0;
-  margin: -20px -20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
   width: fit-content;
-  margin: 20px auto 0;
+  margin: 20px auto;
 }

@@ -1,4 +1,4 @@
-<table cellspacing="10">
+<table cellspacing="0">
   <thead>
     <th align="left">#</th>
     <th align="left">Cédula</th>
