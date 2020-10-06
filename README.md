@@ -2,7 +2,7 @@
 
 #### DESCRIPTION:
 
-This is a CRUD practice implementing MVC with a basic Front Controller and a basic Active Records.
+This is a practice where I explore some techniques to create a basic MVC framework.
 
 #### INSTALATION:
 
