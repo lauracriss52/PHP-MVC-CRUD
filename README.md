@@ -2,9 +2,9 @@
 
 #### DESCRIPTION:
 
-This is a practice where I explore some techniques to create a basic MVC framework.
+This is a practice where I explore some techniques to implement a basic MVC framework.
 
 #### INSTALATION:
 
-1) Clone the repository.
-2) Import the SQL database.
+1) Clone or download the repository.
+2) Import the database file: **school.sql**.
