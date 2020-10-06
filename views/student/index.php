@@ -16,7 +16,8 @@
         <td><?php echo $student->name; ?></td>
         <td><?php echo $student->last_name; ?></td>
         <td><?php echo $student->email; ?></td>
-        <td><a href='estudiantes/editar?id="<?php echo $student->id; ?>"'>Editar</a>
+        <td>
+          <a href='estudiantes/editar?id=<?php echo $student->id; ?>'>Editar</a>
         </td>
         <td>
           <form action="/CRUD_SENA/estudiantes/eliminar" method="post">
